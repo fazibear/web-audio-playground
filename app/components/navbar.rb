@@ -6,7 +6,7 @@ class NavBar
         div class: 'container-fluid' do
           div class: 'navbar-header' do
             a class: 'navbar-brand' do
-              'Web Audio Show Case'
+              'Web Audio Playground'
             end
           end
         end
