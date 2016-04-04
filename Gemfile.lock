@@ -32,6 +32,7 @@ GEM
     execjs (2.6.0)
     ffi (1.9.10)
     hike (1.2.3)
+    htmlcompressor (0.3.0)
     json (1.8.3)
     listen (3.0.6)
       rb-fsevent (>= 0.9.3)
@@ -66,6 +67,9 @@ GEM
     temple (0.7.6)
     thor (0.19.1)
     tilt (2.0.2)
+    uglifier (2.7.2)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     websocket (1.2.2)
 
 PLATFORMS
@@ -73,9 +77,11 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  htmlcompressor
   inesita!
   opal-browser!
   pry
+  uglifier
 
 BUNDLED WITH
    1.11.2
