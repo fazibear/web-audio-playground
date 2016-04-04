@@ -1,6 +1,7 @@
 # Web Audio Playground
 
-Website to play with web-audio created with [Inesita](https://inesita.github.io)
+Website to play with web-audio created with [Inesita](https://inesita.github.io).
+Here is [demo](http://inesita-web-audio.netlify.com/).
 
 ```sh
 $ bundle install
