@@ -1,0 +1,31 @@
+@import "bootstrap-sprockets"
+@import "bootstrap"
+
+canvas
+  position: absolute
+  display: block
+
+.node
+  width: 220px
+  position: absolute
+  box-shadow: 5px 5px 5px #ddd
+
+  .panel-body
+    padding: 2px
+
+  input,
+  select
+    width: 80px
+
+.button
+  border-radius: 15px
+  border: 1px solid black
+  height: 50px
+  width: 50px
+  float: left
+  margin: 5px
+  box-shadow: 2px 2px 5px #888888
+  transition: background-color 0.3s ease
+
+  &.on
+    background-color: #653

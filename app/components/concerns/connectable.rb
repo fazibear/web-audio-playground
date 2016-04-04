@@ -1,0 +1,3 @@
+module Connectable
+
+end

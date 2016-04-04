@@ -1,0 +1,81 @@
+PATH
+  remote: /Users/fazibear/dev/inesita
+  specs:
+    inesita (0.4.0)
+      listen (~> 3.0)
+      opal (~> 0.9)
+      opal-virtual-dom (~> 0.4.0)
+      rack-rewrite (~> 1.5)
+      sass (~> 3.4)
+      slim (~> 3.0)
+      thor (~> 0.19)
+      websocket (~> 1.0)
+
+PATH
+  remote: /Users/fazibear/dev/opal-browser
+  specs:
+    opal-browser (0.2.0)
+      opal
+      paggio
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    autoprefixer-rails (6.1.1)
+      execjs
+      json
+    bootstrap-sass (3.3.6)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
+    coderay (1.1.0)
+    concurrent-ruby (1.0.1)
+    execjs (2.6.0)
+    ffi (1.9.10)
+    hike (1.2.3)
+    json (1.8.3)
+    listen (3.0.6)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9.7)
+    method_source (0.8.2)
+    opal (0.9.2)
+      hike (~> 1.2)
+      sourcemap (~> 0.1.0)
+      sprockets (~> 3.1)
+      tilt (>= 1.4)
+    opal-virtual-dom (0.4.0)
+      opal
+    paggio (0.2.5)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    rack (1.6.4)
+    rack-rewrite (1.5.1)
+    rb-fsevent (0.9.7)
+    rb-inotify (0.9.7)
+      ffi (>= 0.5.0)
+    sass (3.4.19)
+    slim (3.0.6)
+      temple (~> 0.7.3)
+      tilt (>= 1.3.3, < 2.1)
+    slop (3.6.0)
+    sourcemap (0.1.1)
+    sprockets (3.5.2)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    temple (0.7.6)
+    thor (0.19.1)
+    tilt (2.0.2)
+    websocket (1.2.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bootstrap-sass
+  inesita!
+  opal-browser!
+  pry
+
+BUNDLED WITH
+   1.11.2
