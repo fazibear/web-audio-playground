@@ -5,7 +5,7 @@ require 'browser/storage'
 require 'browser/interval'
 require 'browser/canvas'
 require 'browser/immediate'
-require 'virtual_dom/external_support/browser'
+require 'virtual_dom/support/browser'
 require 'store'
 require 'layout'
 
